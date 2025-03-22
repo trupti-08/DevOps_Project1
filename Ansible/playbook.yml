@@ -1,5 +1,5 @@
 ---
-- name: installing java and jenkins on master
+- name: installing java, docker and jenkins on master
   hosts: localhost
   become: true
   tasks: 
