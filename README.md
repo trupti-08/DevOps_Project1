@@ -45,11 +45,9 @@ GitHub Repo: [Abode Software Project](https://github.com/hshar/website.git )
 
 **🎯 7. How to Run the Project**
 - Clone the repository:
-
   - git clone https://github.com/hshar/website.git
    
 - Run the Ansible playbook:
-
   - ansible-playbook ansible/playbook.yml
      
 - Configure Jenkins Webhook for GitHub.
