@@ -6,7 +6,7 @@
   - name: executing master.sh script
     script: master.sh
 - name: installing docker and java on slaves
-  hosts: slave2
+  hosts: all
   become: true
   tasks: 
   - name: executing slave.sh script
