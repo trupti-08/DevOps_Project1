@@ -11,7 +11,7 @@ GitHub Repo: [Abode Software Project](https://github.com/hshar/website.git )
 
 - Clone GitHub repo and copy the application to /var/www/html.
 
-   - **Playbook Location:** [ansible/play.yml](https://github.com/)
+   - **Playbook Location:** [Ansible/play.yml](https://github.com/)
 
 **🔀 2. Git Workflow Implementation**
 - Create branches:
