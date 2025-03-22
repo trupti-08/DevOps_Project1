@@ -37,29 +37,23 @@ GitHub Repo: [Abode Software Project](https://github.com/hshar/website.git )
 - Build and push Docker image after every commit.
 
 **📝 5. Jenkins Pipeline with 3 Jobs**
-**- Job 1: Build**
+**- Job 1: Build** - Pull code, build Docker image, and push to DockerHub.
 
-    - Pull code, build Docker image, and push to DockerHub.
+**- Job 2: Test** - Run unit tests using Docker.
 
-**- Job 2: Test**
-
-    - Run unit tests using Docker.
-
-**- Job 3: Prod**
-
-    - Deploy to production on master commit.
+**- Job 3: Prod** - Deploy to production on master commit.
 
 **🎯 7. How to Run the Project**
- 1. Clone the repository:
+- Clone the repository:
 
-    - git clone https://github.com/hshar/website.git
+  - git clone https://github.com/hshar/website.git
    
-2. Run the Ansible playbook:
+- Run the Ansible playbook:
 
-   - ansible-playbook ansible/playbook.yml
+  - ansible-playbook ansible/playbook.yml
      
-3. Configure Jenkins Webhook for GitHub.
+- Configure Jenkins Webhook for GitHub.
 
-4. Push code to master or develop to trigger the pipeline.
+- Push code to master or develop to trigger the pipeline.
 
 
