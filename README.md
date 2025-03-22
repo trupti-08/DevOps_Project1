@@ -32,7 +32,7 @@ GitHub Repo: [Abode Software Project](https://github.com/hshar/website.git )
 **🐳 4. Docker Containerization**
 - Create a Dockerfile to use a pre-built container:
 
-   - **Dockerfile Location:** [Dockerfile](https://github.com/)
+   - **Dockerfile Location:** [Dockerfile](Dockerfile)
 
 - Build and push Docker image after every commit.
 
